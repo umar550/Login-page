@@ -1,0 +1,101 @@
+body {
+    background-image: url(./background1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.container {
+    border-radius: 10px;
+    width: 350px;
+    height: 500px;
+    text-align: center;
+    margin: 40px auto;
+    box-shadow: 0 0 10px;
+    background-color: rgb(204, 162, 204);
+}
+
+h1 {
+    padding-top: 20px;
+}
+
+#user {
+    text-align: left;
+    padding-left: 35px;
+    margin-top: -20px;
+    font-weight: bold;
+}
+
+#pass {
+    text-align: left;
+    padding-left: 35px;
+    margin-top: -20px;
+    font-weight: bold;
+
+}
+
+input {
+    border-bottom: 1px solid black;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    width: 250px;
+    margin-bottom: 10px;
+    background: none;
+}
+
+input::placeholder {
+    font-size: 14px;
+    font-style: italic;
+}
+
+#forgot {
+    text-decoration: none;
+    font-size: small;
+    margin-left: 160px;
+    color: black;
+}
+
+li {
+    display: inline;
+    margin-right: 30px;
+}
+
+img {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+}
+
+img:hover {
+    transform: scale(1.1);
+}
+
+#btn {
+    margin-top: 30px;
+    border-radius: 20px;
+    border: none;
+    width: 250px;
+    height: 30px;
+    background: linear-gradient(60deg, rgb(114, 231, 239), rgb(255, 0, 144));
+    color: black;
+    font-weight: bold;
+}
+
+#btn:hover {
+    transform: scale(0.9);
+    background: linear-gradient(60deg, rgb(255, 0, 144), rgb(114, 231, 239));
+
+}
+
+p {
+    margin-top: 25px;
+    font-size: small;
+    font-weight: bold;
+}
+
+a {
+    text-decoration: none;
+    font-size: small;
+    font-weight: bold;
+}
